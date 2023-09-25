@@ -28,8 +28,8 @@ pipeline {
       steps{
         sh 'mvn clean verify sonar:sonar \
   -Dsonar.projectKey=etech-team4 \
-  -Dsonar.host.url=http://ec2-3-83-160-155.compute-1.amazonaws.com:9000 \
-  -Dsonar.token=sqp_73c90e4fd872e5faa1d7e9673c2b091f656e588d'
+  -Dsonar.host.url=http://ec2-100-25-21-120.compute-1.amazonaws.com:9000 \
+  -Dsonar.token=sqp_58c65334cdcfc9a8312b9216030e4e0648604'
       }
     }
   }
